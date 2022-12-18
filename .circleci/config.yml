@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: echo "Hello, World!"  > ~/output.tx
+          command: 'echo "Hello, World!"  > ~/output.tx'
       - persist_to_workspace:
           root: ~/
           paths:
