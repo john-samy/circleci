@@ -1,4 +1,4 @@
---
+---
 # Remote Control Using Ansible
 - name: Remote Control Using Ansible
   hosts: all
